@@ -1,15 +1,15 @@
 # Kubernetes-Setup
-****
 Instructions to setup a multi node Kubernetes cluster for development purposes
-## Prerequisites
 ***
+## Prerequisites
+
 - Vagrant should be installed on your machine. Installation binaries can be found here.
 - Oracle VirtualBox can be used as a Vagrant provider or make use of similar providers as described in Vagrant's official documentation.
 - Ansible should be installed in your machine. Refer to the Ansible installation guide for platform specific installation.
-
+***
 
 ## Running this Playbook
-***
+
 Quick Steps:
 
 ### 1. Obtain the playbook
@@ -39,3 +39,4 @@ $ ## Accessing nodes
 $ vagrant ssh node-1
 $ vagrant ssh node-2
 ```
+***

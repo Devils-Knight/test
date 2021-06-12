@@ -2,7 +2,7 @@
 Instructions on how to **Harden** a System<br><br>
 
 ## Steps to run the ansible playbook (harden1)
-***
+
 1. Create a `hosts` file to include ip addresses of all your instances.<br>
 &nbsp;&nbsp; In your hosts file, specify the path to the private key file you downloaded from AWS.<br>
 &nbsp;&nbsp; Assuming the default login user is `ubuntu` (which for AWS is the case)
@@ -21,8 +21,9 @@ mkpasswd --method=SHA-512 --stdin
 4. From the root of the project, run `ansible-playbook -i hosts harden1.yml`
 
 Note: all the commands are run as root user.
-
-## Steps to run the ansible playbook (harden2)
 ***
+## Steps to run the ansible playbook (harden2)
+
 1. Create a `hosts` file to include ip addresses of all your instances.
 2. run `ansible-playbook harden2.yml -i hosts`
+***
