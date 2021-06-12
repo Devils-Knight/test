@@ -15,10 +15,10 @@ $ sudo apt update
 $ sudo apt install ansible
 ```
 ***
-### [Setup Docker using Ansible](https://github.com/Devils-Knight/test/Docker)
+### [Setup Docker using Ansible](https://github.com/Devils-Knight/test/tree/main/Docker)
 
-### [Setup Kubernetes using Ansible](https://github.com/Devils-Knight/test/kubernetes-setup)
-### [Security Hardening using Ansible](https://github.com/Devils-Knight/test/Security-Hardening)
+### [Setup Kubernetes using Ansible](https://github.com/Devils-Knight/test/tree/main/kubernetes-setup)
+### [Security Hardening using Ansible](https://github.com/Devils-Knight/test/tree/main/Security-Hardening)
 ***
 <br><br>
 
