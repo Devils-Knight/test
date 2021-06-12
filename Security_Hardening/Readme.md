@@ -21,9 +21,8 @@ mkpasswd --method=SHA-512 --stdin
 4. From the root of the project, run `ansible-playbook -i hosts harden1.yml`
 
 Note: all the commands are run as root user.
-***
+
 ## Steps to run the ansible playbook (harden2)
 
 1. Create a `hosts` file to include ip addresses of all your instances.
 2. run `ansible-playbook harden2.yml -i hosts`
-***
